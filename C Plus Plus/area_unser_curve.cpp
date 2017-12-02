@@ -4,8 +4,7 @@
         int dx = (endPoint - startPoint) / n; //step size
         double area = 0; //our goal to find
         double meanY;
-//        LOGD("AUC a:%i = %f, b:%i = %f", startPoint, sig_array[startPoint], endPoint,
-//        sig_array[endPoint - 1]);
+
         for (int i = 0; i < n; i++) {
             //using trapezoidal method
             //the area of a trapezoid is (lower base + upper base)*height/2
